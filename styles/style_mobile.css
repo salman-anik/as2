@@ -30,6 +30,7 @@
         }
         ul{
             margin-right: 10vw;
+            display: none;
             li{
                 display: inline-block;
                 padding: 8px;
@@ -203,7 +204,6 @@
                 button{
                     padding: 10px 40px;
                     border: 15px;
-                    font-size: 1.1rem;
                     background-color: var(--btn-color);
                     border-radius: 7px;
                 }
