@@ -26,6 +26,9 @@ nav{
         margin-left: 13vw;
         padding: 8px;
     }
+    div{
+        display: none;
+    }
     ul{
         margin-right: 10vw;
         li{

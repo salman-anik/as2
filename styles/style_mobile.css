@@ -27,6 +27,14 @@
             margin-left: 13vw;
             padding: 8px;
         }
+        div{
+            width: 40px;
+            margin-right: 10px;
+            img{
+                width: 100%;
+                filter: invert(100%) brightness(200%);
+            }
+        }
         ul{
             margin-right: 10vw;
             display: none;
@@ -50,6 +58,7 @@
         padding: 20px;
         width: 100vw;
         div:nth-child(1){
+            margin-top: 20px;
             padding: 20px;
             p:nth-child(1){
                 font-size: 3rem;
@@ -185,6 +194,7 @@
             justify-content: center;
             align-items: center;
             background-color: rgb(41, 41, 41);
+            flex-wrap: wrap;
             width: 80vw;
             margin: 0 auto;
             padding: 20px 40px;
@@ -192,7 +202,7 @@
             >div:nth-child(1){
                 min-width: 60%;
                 h1{
-                    font-size: 2.2rem;
+                    font-size: 2rem;
                 }
                 p{
                     width: 70%;
@@ -208,6 +218,7 @@
                 }
             }
             >div:nth-child(2){
+                margin-top: 10px;
                 img{
                     width: 100%;
                     border-radius: 10px;
@@ -215,9 +226,10 @@
             }
         }
     }
+
+    /* special section => due to time limitaton and others i cant create a new section for it */
     section:nth-child(4){
-        margin-top: 50px;
-        padding: 50px 100px;
+        padding: 50px 10px;
         >div:nth-child(1){
             p{
                 color: #aca8a86d;
@@ -271,7 +283,7 @@
             }
             >div:nth-child(2){
                 >div:nth-child(1){
-                    margin: 20px 0px;
+                    margin: 20px 5px;
                     h1{
                         margin: 5px 0px;
                     }
@@ -281,9 +293,10 @@
                     display: grid;
                     grid-template-columns: repeat(2,1fr);
                     gap: 5px;
+                    padding: 5px 10px;
                     input,select{
                         background-color: rgb(90, 87, 87);
-                        padding: 10px 20px;
+                        padding: 10px 10px;
                         border: none;
                         outline: none;
                         border-radius: 5px;
@@ -334,7 +347,7 @@
                     margin-left: 
                     10px;
                     h3{
-                        font-size: 0.8rem;
+                        font-size: 0.7rem;
                     }
                     p{
                         font-size: 0.7rem;
@@ -351,7 +364,8 @@
         flex-wrap: wrap;
         justify-content: space-around;
         >div:nth-child(1){
-            width: 40vw;
+            width: 60vw;
+            margin-bottom: 20px;
             h1{
                 color: var(--btn-color);
                 font-size: 4rem;
