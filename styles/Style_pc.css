@@ -1,3 +1,5 @@
+@media  screen and (min-width:576px) {
+
 :root{
     --bg-color:linear-gradient(to top, #000000, #434343);
     --btn-color:rgb(234, 101, 30);
@@ -356,7 +358,7 @@ footer{
             margin: 10px 0px;
         }
         p{
-            font-size: 0.9rem;
+            font-size: 0.8rem;
         }
     }
     >div ul{
@@ -364,6 +366,8 @@ footer{
         li{
             list-style: none;
             margin-top: 5px;
+            font-size: 0.8rem;
         }
     }
+}
 }
