@@ -149,6 +149,7 @@
         }
     }
     section:nth-child(2){
+        margin-top: 70px;
         >div:nth-child(1){
             text-align: center;
             width: 60%;
@@ -291,14 +292,15 @@
                 >div:nth-child(2){
                     margin: 20px 0px;
                     display: grid;
+                    width: 100%;
                     grid-template-columns: repeat(2,1fr);
                     gap: 5px;
                     padding: 5px 10px;
                     input,select{
                         background-color: rgb(90, 87, 87);
-                        padding: 10px 10px;
                         border: none;
                         outline: none;
+                        padding: 10px 10px;
                         border-radius: 5px;
                         color: white;
                         text-align: center;
