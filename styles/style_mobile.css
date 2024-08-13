@@ -1,4 +1,4 @@
-@media  screen and (max-width:576px) {
+@media  screen and (max-width:768px) {
 
     :root{
         --bg-color:linear-gradient(to top, #000000, #434343);
@@ -12,7 +12,7 @@
         color: white;
     }
     body{
-        background-color: rgb(104, 75, 75);
+        background-color: black;
         width: 100vw;
         overflow: hidden;
     }
@@ -22,7 +22,6 @@
         display: flex;
         justify-content: space-between;
         backdrop-filter: blur(10px);
-        background-color: red;
         width: 100vw;
         position: fixed;
         p{
@@ -49,11 +48,11 @@
         align-items: center;
         background: var(--bg-color);
         padding: 20px;
+        width: 100vw;
         div:nth-child(1){
             padding: 20px;
-            width: 500px;
             p:nth-child(1){
-                font-size: 4.5rem;
+                font-size: 3rem;
                 text-align: left;
             }
             p:nth-child(2){
