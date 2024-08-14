@@ -56,6 +56,10 @@ section:nth-child(1){
         p:nth-child(1){
             font-size: 4.5rem;
             text-align: left;
+            span{
+                font-family: 'Times New Roman', Times, serif;
+                font-style: italic;
+            }
         }
         p:nth-child(2){
             font-size: 0.8rem;
